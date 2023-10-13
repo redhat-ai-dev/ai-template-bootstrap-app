@@ -19,7 +19,8 @@ COPY . .
 # Configure and document the service HTTP port.
 ENV PORT 8080
 EXPOSE $PORT
-
+ENV GIT_REPO=unknown
+ENV DEBUG=express:*
 # Run the web service on container startup.
 CMD [ "/bin/sh", "start.sh" ]
 
