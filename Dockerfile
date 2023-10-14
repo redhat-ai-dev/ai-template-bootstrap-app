@@ -15,7 +15,7 @@ RUN npm install --only=production
 
 # Copy local code to the container image.
 COPY . . 
-
+RUN chmod 777 html
 # Configure and document the service HTTP port.
 ENV PORT 8080
 EXPOSE $PORT
