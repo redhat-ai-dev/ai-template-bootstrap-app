@@ -1,0 +1,2057 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:88b9149b-9bdf-4b3e-b78b-1d4240a0a13a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-11-22T17:24:41.276Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.9.5",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.9.5",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.9.5",
+          "author": "OWASP Foundation",
+          "publisher": "OWASP Foundation"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "OWASP Foundation"
+      }
+    ],
+    "component": {
+      "author": "",
+      "group": "",
+      "name": "bootstrap-stub",
+      "version": "1.0.0",
+      "type": "application",
+      "purl": "pkg:npm/bootstrap-stub@1.0.0",
+      "bom-ref": "pkg:npm/bootstrap-stub@1.0.0",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "express",
+      "version": "4.17.3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cae490a73e48f8287b805acf0a4e3f73e74804a950531b60c2ace9875df66ec4faaa1bb3b2ce88f1c2c9433ec1deb15b97377ac2d708d196c696d1ff0b82e352"
+        }
+      ],
+      "purl": "pkg:npm/express@4.17.3",
+      "type": "framework",
+      "bom-ref": "pkg:npm/express@4.17.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        },
+        "occurrences": [
+          {
+            "location": "app.js#2"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        },
+        {
+          "name": "ImportedModules",
+          "value": "express"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "accepts",
+      "version": "1.3.8",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3d802d8536b69b654ac6ebd20f70cf0bf1b2f94fac380d4b02e4fc9a4991bafc3e34009269e5c443e34771517bace365eaa71ac55dd4b9e9b06b093eefe4892f"
+        }
+      ],
+      "purl": "pkg:npm/accepts@1.3.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/accepts@1.3.8",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mime-types",
+      "version": "2.1.34",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e9c3faf765b0188b3d5d774e3b8fbe37eeea8eabf4aeac7156f2775473e1fd273d99565c40ff991a190a893bd631046bdad6c79093ff627ed8d27a5bdd906ce0"
+        }
+      ],
+      "purl": "pkg:npm/mime-types@2.1.34",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime-types@2.1.34",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mime-db",
+      "version": "1.51.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e72f00e7a8e0ed7550c7699bbf596ee3d351e1da24467859613b4bf8a19f69adbbbaae294935e4c10905265e29911332345cff12d6034a48a2107c7717b50dea"
+        }
+      ],
+      "purl": "pkg:npm/mime-db@1.51.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime-db@1.51.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "negotiator",
+      "version": "0.6.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f8452ca863cbb0cfa3ff37428598ec9d7e758385eb1c53885f07e70953c695093f9398226a470ab2ec4239b051bba0d29bda29c3f3bab2559b25d82140ce1b06"
+        }
+      ],
+      "purl": "pkg:npm/negotiator@0.6.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/negotiator@0.6.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "array-flatten",
+      "version": "1.1.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9a5f699051b1e7073328f2a008968b64ea2955d2"
+        }
+      ],
+      "purl": "pkg:npm/array-flatten@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/array-flatten@1.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "body-parser",
+      "version": "1.19.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4800303b182808a306b3db94014147ca07cb0326a789aa2e9fa23c98563da510092fdf8a79cdf8694fa82230e14f272e6f58e8cc47c4c31d56d48b8e63155217"
+        }
+      ],
+      "purl": "pkg:npm/body-parser@1.19.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/body-parser@1.19.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "bytes",
+      "version": "3.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fcd7fb4f2cd3c7a4b7c9124e6ce015efde7aafc72bdbe3a3f000b976df3048fdc1400a1e5f9f0da07c8253c3fccc690d5d2b634d28ba7f33ba174a4175c61b12"
+        }
+      ],
+      "purl": "pkg:npm/bytes@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/bytes@3.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "content-type",
+      "version": "1.0.4",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8483f71043ecf2d07d013d4bf8d52ab70380a6ce269366686fcf4c5973078c75a0f668a517f8f8a2c9e740b5c108114193fb6f206fed51cf663942623c184f5c"
+        }
+      ],
+      "purl": "pkg:npm/content-type@1.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/content-type@1.0.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "debug",
+      "version": "2.6.9",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6c2ec496b7496899cf6c03fed44a2d62fa99b1bdde725e708ba05f8ba0494d470da30a7a72fb298348d7ce74532838e6fc4ec076014155e00f54c35c286b0730"
+        }
+      ],
+      "purl": "pkg:npm/debug@2.6.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@2.6.9",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ms",
+      "version": "2.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5608aeadfc00be6c2901df5f9861788de0d597c8"
+        }
+      ],
+      "purl": "pkg:npm/ms@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "depd",
+      "version": "1.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9bcd52e14c097763e749b274c4346ed2e560b5a9"
+        }
+      ],
+      "purl": "pkg:npm/depd@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/depd@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "http-errors",
+      "version": "1.8.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2a993d4a6ecd988f911e19e3e8e2160c8d5de9f228140b45b7d44b693311960ffcc38f63b804adb2b060a740e9e0e7717556d121e2a1b4252fa22fd1b8084ee2"
+        }
+      ],
+      "purl": "pkg:npm/http-errors@1.8.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/http-errors@1.8.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "inherits",
+      "version": "2.0.4",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1"
+        }
+      ],
+      "purl": "pkg:npm/inherits@2.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/inherits@2.0.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "setprototypeof",
+      "version": "1.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1392c35fb5aba7ce4a8a5e5b859bf8ea3f2339e6e82aae4932660cde05467461fcc45a4f59750cb0dae53830ab928c4c11e362fd7648c2e46f6385cdc18309a7"
+        }
+      ],
+      "purl": "pkg:npm/setprototypeof@1.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/setprototypeof@1.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "statuses",
+      "version": "1.5.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "161c7dac177659fd9811f43771fa99381478628c"
+        }
+      ],
+      "purl": "pkg:npm/statuses@1.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/statuses@1.5.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "toidentifier",
+      "version": "1.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a39b123ca12483f0c840d987e37574fee7ab2eba7355e764521f2d18dbda797a5fa6ec2329e9e54a8c7fd8efc14e5654b447be246eece58844cfad3c3e500744"
+        }
+      ],
+      "purl": "pkg:npm/toidentifier@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/toidentifier@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "iconv-lite",
+      "version": "0.4.24",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bf73179d901cbe7cb091350466898801cb657bb4575de79d391df5c3097b565ca85cee108bd6abbd27a73505a77b54dc4708422f51f02c8db56c4a9da63f3fac"
+        }
+      ],
+      "purl": "pkg:npm/iconv-lite@0.4.24",
+      "type": "library",
+      "bom-ref": "pkg:npm/iconv-lite@0.4.24",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "619a372bcd920fb462ca2d04d4440fa232f3ee4a5ea6749023d2323db1c78355d75debdbe5d248eeda72376003c467106c71bbbdcc911e4d1c6f0a9c42b894b6"
+        }
+      ],
+      "purl": "pkg:npm/safer-buffer@2.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/safer-buffer@2.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "on-finished",
+      "version": "2.3.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "20f1336481b083cd75337992a16971aa2d906947"
+        }
+      ],
+      "purl": "pkg:npm/on-finished@2.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/on-finished@2.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ee-first",
+      "version": "1.1.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "590c61156b0ae2f4f0255732a158b266bc56b21d"
+        }
+      ],
+      "purl": "pkg:npm/ee-first@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ee-first@1.1.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "qs",
+      "version": "6.9.7",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2213058149ae369c917f103dd2e98bec1c8b960457bbab487ca3e91794e671f44b94b09c91f3ff8372109a3bba8e3a6ef8787cac0fb6a7a036ed948f38e1dd2b"
+        }
+      ],
+      "purl": "pkg:npm/qs@6.9.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/qs@6.9.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "raw-body",
+      "version": "2.4.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5254cd2c872ed2ecdbe03d9fe1696d63a7158cb8befe310de25804523dc4d38b69303a54964068fde4a7eb3a2ef61ba6d9530da42094a277b43b459e2629b4ee"
+        }
+      ],
+      "purl": "pkg:npm/raw-body@2.4.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/raw-body@2.4.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "unpipe",
+      "version": "1.0.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b2bf4ee8514aae6165b4817829d21b2ef49904ec"
+        }
+      ],
+      "purl": "pkg:npm/unpipe@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/unpipe@1.0.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "type-is",
+      "version": "1.6.18",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4e444aafdb144f1107f0c75fb8248fed58b3272cd134c8e3d89d9da3626bdcaca6e7df0955d124b2eccf4029e514f5b8932f50fa203e99af411a6d3a5d0072f2"
+        }
+      ],
+      "purl": "pkg:npm/type-is@1.6.18",
+      "type": "library",
+      "bom-ref": "pkg:npm/type-is@1.6.18",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "media-typer",
+      "version": "0.3.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8710d7af0aa626f8fffa1ce00168545263255748"
+        }
+      ],
+      "purl": "pkg:npm/media-typer@0.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/media-typer@0.3.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "content-disposition",
+      "version": "0.5.4",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "16f7994cdb86c34e1cc6502259bce2eb34c02ff9617a16966d3b6096e261e3f13de43a8cc139a16b7299375680580f1c148847ccc654bcb7af930e51aa4fad49"
+        }
+      ],
+      "purl": "pkg:npm/content-disposition@0.5.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/content-disposition@0.5.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d"
+        }
+      ],
+      "purl": "pkg:npm/safe-buffer@5.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/safe-buffer@5.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cookie",
+      "version": "0.4.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6925935c5cda29692f1ced4dcbfb3e78f169bcab0f9e3739e75888e35bf79f2fe8c3ab411b955df85baa18d861d4bc4e995cce94652b88894e6a890ebe1692b4"
+        }
+      ],
+      "purl": "pkg:npm/cookie@0.4.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie@0.4.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "cookie-signature",
+      "version": "1.0.6",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e303a882b342cc3ee8ca513a79999734dab3ae2c"
+        }
+      ],
+      "purl": "pkg:npm/cookie-signature@1.0.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie-signature@1.0.6",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "encodeurl",
+      "version": "1.0.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
+        }
+      ],
+      "purl": "pkg:npm/encodeurl@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/encodeurl@1.0.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "escape-html",
+      "version": "1.0.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "0258eae4d3d0c0974de1c169188ef0051d1d1988"
+        }
+      ],
+      "purl": "pkg:npm/escape-html@1.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/escape-html@1.0.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "etag",
+      "version": "1.8.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "41ae2eeb65efa62268aebfea83ac7d79299b0887"
+        }
+      ],
+      "purl": "pkg:npm/etag@1.8.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/etag@1.8.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "finalhandler",
+      "version": "1.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "68059c5b9eeec5536b419a855e3213a56dec2144261c61b7a926fd9946a1f4c80c0b835e5a134e94d8d7118ab71e3440bcbe9aad4be2646189b0183acf4cec58"
+        }
+      ],
+      "purl": "pkg:npm/finalhandler@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/finalhandler@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "parseurl",
+      "version": "1.3.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0a2c9e3b1153fc96723799b4cfd3df5f0e1208127a4b2833d43a65d30aa39610c418604fd469ec51510bd29eb78681b57dc8f77c7ca75e2f4d60ee2758e2fea9"
+        }
+      ],
+      "purl": "pkg:npm/parseurl@1.3.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/parseurl@1.3.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "fresh",
+      "version": "0.5.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "3d8cadd90d976569fa835ab1f8e4b23a105605a7"
+        }
+      ],
+      "purl": "pkg:npm/fresh@0.5.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/fresh@0.5.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "merge-descriptors",
+      "version": "1.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
+        }
+      ],
+      "purl": "pkg:npm/merge-descriptors@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/merge-descriptors@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "methods",
+      "version": "1.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5529a4d67654134edcc5266656835b0f851afcee"
+        }
+      ],
+      "purl": "pkg:npm/methods@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/methods@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "path-to-regexp",
+      "version": "0.1.7",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "df604178005f522f15eb4490e7247a1bfaa67f8c"
+        }
+      ],
+      "purl": "pkg:npm/path-to-regexp@0.1.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/path-to-regexp@0.1.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "proxy-addr",
+      "version": "2.0.7",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "96542c30b4940d43d3e388ddad4fcedfbaa59e27e2b433fe670ae699972848ac8b2afb59c69c95d27dbf6c3fcde2d040019fe024475953b28cadaa0ad7e5d802"
+        }
+      ],
+      "purl": "pkg:npm/proxy-addr@2.0.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/proxy-addr@2.0.7",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "forwarded",
+      "version": "0.2.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6ee446d1fa41b511d24c238049eea10f6e7cb44b9b16844b6f864d03a3713151cdc3680e7301e8f70c9a6e5ccccce039cfdc40f4bd4a36393f36de8c4fd698a3"
+        }
+      ],
+      "purl": "pkg:npm/forwarded@0.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/forwarded@0.2.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ipaddr.js",
+      "version": "1.9.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d0a23feb4ef1a31493a07ec68cdd457d26cba14d3e6ed4e2723b1049642587f859ca437c2a998c7fbb98c0f5b747e6a467a47fc35f199574870585e26143cede"
+        }
+      ],
+      "purl": "pkg:npm/ipaddr.js@1.9.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ipaddr.js@1.9.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "range-parser",
+      "version": "1.2.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1eb82cc7ea2baa8ca09e68456ca68713a736f7a27e1d30105e8c4417a80dba944e9a6189468cb37c6ddc700bdea8206bc2bff6cb143905577f1939796a03b04a"
+        }
+      ],
+      "purl": "pkg:npm/range-parser@1.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/range-parser@1.2.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "send",
+      "version": "0.17.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "509601eb0152244dc6d349c48af479ae05a9f1cdb15ef27738f58f866bad794d082a3f2729b1b70eb8e23a62f0a671c6616015c00ebdce64e6fbe606d079b0c3"
+        }
+      ],
+      "purl": "pkg:npm/send@0.17.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/send@0.17.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "ms",
+      "version": "2.1.3",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e85973b9b4cb646dc9d9afcd542025784863ceae68c601f268253dc985ef70bb2fa1568726afece715c8ebf5d73fab73ed1f7100eb479d23bfb57b45dd645394"
+        }
+      ],
+      "purl": "pkg:npm/ms@2.1.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.1.3",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "destroy",
+      "version": "1.0.4",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "978857442c44749e4206613e37946205826abd80"
+        }
+      ],
+      "purl": "pkg:npm/destroy@1.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/destroy@1.0.4",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "mime",
+      "version": "1.6.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c74567f2ca48fb0b89d4ee92ee09db69083c3f187834d1dbeca4883661162a23c4e1128ea65be28e7f8d92662699180febc99cef48f611b793151b2bb306907a"
+        }
+      ],
+      "purl": "pkg:npm/mime@1.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime@1.6.0",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "serve-static",
+      "version": "1.14.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f9330d03d005c54106b82d33da67afa204a79fd31729be1f6bb9e079130969a1aff2f4f09c81242a2f901af3eddf71d29dff29452f9618cd046ccb4224b28c05"
+        }
+      ],
+      "purl": "pkg:npm/serve-static@1.14.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/serve-static@1.14.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "utils-merge",
+      "version": "1.0.1",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "9f95710f50a267947b2ccc124741c1028427e713"
+        }
+      ],
+      "purl": "pkg:npm/utils-merge@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/utils-merge@1.0.1",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "vary",
+      "version": "1.1.2",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2299f02c6ded30d4a5961b0b9f74524a18f634fc"
+        }
+      ],
+      "purl": "pkg:npm/vary@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/vary@1.1.2",
+      "evidence": {
+        "identity": {
+          "field": "purl",
+          "confidence": 1,
+          "methods": [
+            {
+              "technique": "manifest-analysis",
+              "confidence": 1,
+              "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+            }
+          ]
+        }
+      },
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "/home/john/dev/bootstrap-stub/package-lock.json"
+        }
+      ]
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/mime-db@1.51.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mime-types@2.1.34",
+      "dependsOn": [
+        "pkg:npm/mime-db@1.51.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/negotiator@0.6.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/accepts@1.3.8",
+      "dependsOn": [
+        "pkg:npm/mime-types@2.1.34",
+        "pkg:npm/negotiator@0.6.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/array-flatten@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/bytes@3.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/content-type@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ms@2.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/debug@2.6.9",
+      "dependsOn": [
+        "pkg:npm/ms@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/depd@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/inherits@2.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/setprototypeof@1.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/statuses@1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/toidentifier@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/http-errors@1.8.1",
+      "dependsOn": [
+        "pkg:npm/depd@1.1.2",
+        "pkg:npm/inherits@2.0.4",
+        "pkg:npm/setprototypeof@1.2.0",
+        "pkg:npm/statuses@1.5.0",
+        "pkg:npm/toidentifier@1.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/safer-buffer@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/iconv-lite@0.4.24",
+      "dependsOn": [
+        "pkg:npm/safer-buffer@2.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/ee-first@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/on-finished@2.3.0",
+      "dependsOn": [
+        "pkg:npm/ee-first@1.1.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/qs@6.9.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/unpipe@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/raw-body@2.4.3",
+      "dependsOn": [
+        "pkg:npm/bytes@3.1.2",
+        "pkg:npm/http-errors@1.8.1",
+        "pkg:npm/iconv-lite@0.4.24",
+        "pkg:npm/unpipe@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/media-typer@0.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/type-is@1.6.18",
+      "dependsOn": [
+        "pkg:npm/media-typer@0.3.0",
+        "pkg:npm/mime-types@2.1.34"
+      ]
+    },
+    {
+      "ref": "pkg:npm/body-parser@1.19.2",
+      "dependsOn": [
+        "pkg:npm/bytes@3.1.2",
+        "pkg:npm/content-type@1.0.4",
+        "pkg:npm/debug@2.6.9",
+        "pkg:npm/depd@1.1.2",
+        "pkg:npm/http-errors@1.8.1",
+        "pkg:npm/iconv-lite@0.4.24",
+        "pkg:npm/on-finished@2.3.0",
+        "pkg:npm/qs@6.9.7",
+        "pkg:npm/raw-body@2.4.3",
+        "pkg:npm/type-is@1.6.18"
+      ]
+    },
+    {
+      "ref": "pkg:npm/safe-buffer@5.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/content-disposition@0.5.4",
+      "dependsOn": [
+        "pkg:npm/safe-buffer@5.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/cookie@0.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/cookie-signature@1.0.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/encodeurl@1.0.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/escape-html@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/etag@1.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/parseurl@1.3.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/finalhandler@1.1.2",
+      "dependsOn": [
+        "pkg:npm/debug@2.6.9",
+        "pkg:npm/encodeurl@1.0.2",
+        "pkg:npm/escape-html@1.0.3",
+        "pkg:npm/on-finished@2.3.0",
+        "pkg:npm/parseurl@1.3.3",
+        "pkg:npm/statuses@1.5.0",
+        "pkg:npm/unpipe@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fresh@0.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/merge-descriptors@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/methods@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/path-to-regexp@0.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/forwarded@0.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ipaddr.js@1.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/proxy-addr@2.0.7",
+      "dependsOn": [
+        "pkg:npm/forwarded@0.2.0",
+        "pkg:npm/ipaddr.js@1.9.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/range-parser@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/ms@2.1.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/destroy@1.0.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/mime@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/send@0.17.2",
+      "dependsOn": [
+        "pkg:npm/debug@2.6.9",
+        "pkg:npm/depd@1.1.2",
+        "pkg:npm/destroy@1.0.4",
+        "pkg:npm/encodeurl@1.0.2",
+        "pkg:npm/escape-html@1.0.3",
+        "pkg:npm/etag@1.8.1",
+        "pkg:npm/fresh@0.5.2",
+        "pkg:npm/http-errors@1.8.1",
+        "pkg:npm/mime@1.6.0",
+        "pkg:npm/ms@2.1.3",
+        "pkg:npm/on-finished@2.3.0",
+        "pkg:npm/range-parser@1.2.1",
+        "pkg:npm/statuses@1.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/serve-static@1.14.2",
+      "dependsOn": [
+        "pkg:npm/encodeurl@1.0.2",
+        "pkg:npm/escape-html@1.0.3",
+        "pkg:npm/parseurl@1.3.3",
+        "pkg:npm/send@0.17.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/utils-merge@1.0.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/vary@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/express@4.17.3",
+      "dependsOn": [
+        "pkg:npm/accepts@1.3.8",
+        "pkg:npm/array-flatten@1.1.1",
+        "pkg:npm/body-parser@1.19.2",
+        "pkg:npm/content-disposition@0.5.4",
+        "pkg:npm/content-type@1.0.4",
+        "pkg:npm/cookie-signature@1.0.6",
+        "pkg:npm/cookie@0.4.2",
+        "pkg:npm/debug@2.6.9",
+        "pkg:npm/depd@1.1.2",
+        "pkg:npm/encodeurl@1.0.2",
+        "pkg:npm/escape-html@1.0.3",
+        "pkg:npm/etag@1.8.1",
+        "pkg:npm/finalhandler@1.1.2",
+        "pkg:npm/fresh@0.5.2",
+        "pkg:npm/merge-descriptors@1.0.1",
+        "pkg:npm/methods@1.1.2",
+        "pkg:npm/on-finished@2.3.0",
+        "pkg:npm/parseurl@1.3.3",
+        "pkg:npm/path-to-regexp@0.1.7",
+        "pkg:npm/proxy-addr@2.0.7",
+        "pkg:npm/qs@6.9.7",
+        "pkg:npm/range-parser@1.2.1",
+        "pkg:npm/safe-buffer@5.2.1",
+        "pkg:npm/send@0.17.2",
+        "pkg:npm/serve-static@1.14.2",
+        "pkg:npm/setprototypeof@1.2.0",
+        "pkg:npm/statuses@1.5.0",
+        "pkg:npm/type-is@1.6.18",
+        "pkg:npm/utils-merge@1.0.1",
+        "pkg:npm/vary@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/bootstrap-stub@1.0.0",
+      "dependsOn": [
+        "pkg:npm/express@4.17.3"
+      ]
+    }
+  ]
+}

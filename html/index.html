@@ -25,6 +25,7 @@
     width: 80%;
     text-align: center;
   }
+
   .columnr {
     float: right;
     width: 20%;
@@ -43,25 +44,33 @@
   <!-- Header -->
   <header class="w3-container w3-red w3-center" style="padding:64px 16px">
     <i class="fab fa-redhat fa-5x "></i>
-    <h1 class="w3-margin w3-jumbo">Red Hat Trusted Application Delivery</h1> 
+    <h1 class="w3-margin w3-jumbo">Red Hat Trusted Application Pipeline</h1>
 
 
-    <p class="w3-xlarge">  
-       Bootstrapped with RHTAD
-    </p>
- 
+
   </header>
 
 
   <div class="w3-row-padding w3-padding-64 w3-container ">
+
+
     <div class="w3-content  ">
-      
-          <h1> Deployed from gitops repository GIT_REPO </h1>   
-          <p> This is a simple landing page bootstrapped by RHTAD. 
-            It created a gitops repoistory with a default application container as a placeholder.
-            To replace with with your own, clone the gitops repo and replace the image reference 
-            in <pre>overlays/development/deployment-patch.yaml</pre> and push that change.
-            ArgoCD will update your application. 
+      <p class="w3-xlarge">
+        Please wait, your application is still building...
+      </p>
+
+      <h1> Deployed from gitops repository GIT_REPO </h1>
+
+      <p class="w3-xlarge"> This is a simple landing page bootstrapped by Red Hat Trusted Application Pipeline.
+        This default container was installed into the generated gitops repository as a placeholder image
+        while the source application builds.
+        When that application completes its build and validation this application will
+         refresh using via the gitops repository shown above.
+
+      </p>
+      <p> As a demo application this container response to ports 8080, 8081, and 3001 to enable reuse across 
+        multiple deployment ports. 
+      </p>
     </div>
   </div>
 
