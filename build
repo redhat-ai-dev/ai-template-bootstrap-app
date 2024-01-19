@@ -1,4 +1,4 @@
-IMAGE=quay.io/jduimovich0/bootstrap
+IMAGE=quay.io/redhat-appstudio/dance-bootstrap-app
 
 docker.exe build . -t "$IMAGE"
 docker push "$IMAGE"
