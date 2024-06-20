@@ -12,3 +12,4 @@ function run_web_site(port) {
 run_web_site(8080) 
 run_web_site(8081) 
 run_web_site(3001) 
+run_web_site(8501) 

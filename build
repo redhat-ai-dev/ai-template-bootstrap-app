@@ -1,4 +1,4 @@
-IMAGE=quay.io/redhat-appstudio/dance-bootstrap-app
+IMAGE=quay.io/redhat-ai-dev/ai-template-bootstrap-app
 
 docker build --platform linux/amd64 . -t "$IMAGE"
 docker push "$IMAGE"
